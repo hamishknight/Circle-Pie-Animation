@@ -10,7 +10,6 @@
 		1CAA2BD51CB7D7AC0012DC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BD41CB7D7AC0012DC9C /* main.m */; };
 		1CAA2BD81CB7D7AC0012DC9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BD71CB7D7AC0012DC9C /* AppDelegate.m */; };
 		1CAA2BDB1CB7D7AC0012DC9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BDA1CB7D7AC0012DC9C /* ViewController.m */; };
-		1CAA2BDE1CB7D7AC0012DC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA2BDC1CB7D7AC0012DC9C /* Main.storyboard */; };
 		1CAA2BE01CB7D7AC0012DC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA2BDF1CB7D7AC0012DC9C /* Assets.xcassets */; };
 		1CAA2BE31CB7D7AC0012DC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA2BE11CB7D7AC0012DC9C /* LaunchScreen.storyboard */; };
 		1CAA2BEE1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BED1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m */; };
@@ -41,7 +40,6 @@
 		1CAA2BD71CB7D7AC0012DC9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1CAA2BD91CB7D7AC0012DC9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1CAA2BDA1CB7D7AC0012DC9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1CAA2BDD1CB7D7AC0012DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CAA2BDF1CB7D7AC0012DC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CAA2BE21CB7D7AC0012DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CAA2BE41CB7D7AC0012DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				1CAA2BD71CB7D7AC0012DC9C /* AppDelegate.m */,
 				1CAA2BD91CB7D7AC0012DC9C /* ViewController.h */,
 				1CAA2BDA1CB7D7AC0012DC9C /* ViewController.m */,
-				1CAA2BDC1CB7D7AC0012DC9C /* Main.storyboard */,
 				1CAA2BDF1CB7D7AC0012DC9C /* Assets.xcassets */,
 				1CAA2BE11CB7D7AC0012DC9C /* LaunchScreen.storyboard */,
 				1CAA2BE41CB7D7AC0012DC9C /* Info.plist */,
@@ -245,7 +242,6 @@
 			files = (
 				1CAA2BE31CB7D7AC0012DC9C /* LaunchScreen.storyboard in Resources */,
 				1CAA2BE01CB7D7AC0012DC9C /* Assets.xcassets in Resources */,
-				1CAA2BDE1CB7D7AC0012DC9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CAA2BDC1CB7D7AC0012DC9C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CAA2BDD1CB7D7AC0012DC9C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CAA2BE11CB7D7AC0012DC9C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +486,7 @@
 				1CAA2BFF1CB7D7AC0012DC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CAA2C001CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle PieTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +495,7 @@
 				1CAA2C021CB7D7AC0012DC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CAA2C031CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle PieUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +504,7 @@
 				1CAA2C051CB7D7AC0012DC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
