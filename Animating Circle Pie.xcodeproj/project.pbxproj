@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CAA2BD51CB7D7AC0012DC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BD41CB7D7AC0012DC9C /* main.m */; };
+		1CAA2BD81CB7D7AC0012DC9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BD71CB7D7AC0012DC9C /* AppDelegate.m */; };
+		1CAA2BDB1CB7D7AC0012DC9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BDA1CB7D7AC0012DC9C /* ViewController.m */; };
+		1CAA2BDE1CB7D7AC0012DC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA2BDC1CB7D7AC0012DC9C /* Main.storyboard */; };
+		1CAA2BE01CB7D7AC0012DC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA2BDF1CB7D7AC0012DC9C /* Assets.xcassets */; };
+		1CAA2BE31CB7D7AC0012DC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA2BE11CB7D7AC0012DC9C /* LaunchScreen.storyboard */; };
+		1CAA2BEE1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BED1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m */; };
+		1CAA2BF91CB7D7AC0012DC9C /* Animating_Circle_PieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA2BF81CB7D7AC0012DC9C /* Animating_Circle_PieUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAA2BEA1CB7D7AC0012DC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAA2BC81CB7D7AC0012DC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAA2BCF1CB7D7AC0012DC9C;
+			remoteInfo = "Animating Circle Pie";
+		};
+		1CAA2BF51CB7D7AC0012DC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAA2BC81CB7D7AC0012DC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAA2BCF1CB7D7AC0012DC9C;
+			remoteInfo = "Animating Circle Pie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CAA2BD01CB7D7AC0012DC9C /* Animating Circle Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animating Circle Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAA2BD41CB7D7AC0012DC9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CAA2BD61CB7D7AC0012DC9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CAA2BD71CB7D7AC0012DC9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CAA2BD91CB7D7AC0012DC9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CAA2BDA1CB7D7AC0012DC9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CAA2BDD1CB7D7AC0012DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CAA2BDF1CB7D7AC0012DC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CAA2BE21CB7D7AC0012DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CAA2BE41CB7D7AC0012DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAA2BE91CB7D7AC0012DC9C /* Animating Circle PieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animating Circle PieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAA2BED1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_Circle_PieTests.m; sourceTree = "<group>"; };
+		1CAA2BEF1CB7D7AC0012DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAA2BF41CB7D7AC0012DC9C /* Animating Circle PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animating Circle PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAA2BF81CB7D7AC0012DC9C /* Animating_Circle_PieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_Circle_PieUITests.m; sourceTree = "<group>"; };
+		1CAA2BFA1CB7D7AC0012DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAA2BCD1CB7D7AC0012DC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAA2BE61CB7D7AC0012DC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAA2BF11CB7D7AC0012DC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAA2BC71CB7D7AC0012DC9C = {
+			isa = PBXGroup;
+			children = (
+				1CAA2BD21CB7D7AC0012DC9C /* Animating Circle Pie */,
+				1CAA2BEC1CB7D7AC0012DC9C /* Animating Circle PieTests */,
+				1CAA2BF71CB7D7AC0012DC9C /* Animating Circle PieUITests */,
+				1CAA2BD11CB7D7AC0012DC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAA2BD11CB7D7AC0012DC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA2BD01CB7D7AC0012DC9C /* Animating Circle Pie.app */,
+				1CAA2BE91CB7D7AC0012DC9C /* Animating Circle PieTests.xctest */,
+				1CAA2BF41CB7D7AC0012DC9C /* Animating Circle PieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAA2BD21CB7D7AC0012DC9C /* Animating Circle Pie */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA2BD61CB7D7AC0012DC9C /* AppDelegate.h */,
+				1CAA2BD71CB7D7AC0012DC9C /* AppDelegate.m */,
+				1CAA2BD91CB7D7AC0012DC9C /* ViewController.h */,
+				1CAA2BDA1CB7D7AC0012DC9C /* ViewController.m */,
+				1CAA2BDC1CB7D7AC0012DC9C /* Main.storyboard */,
+				1CAA2BDF1CB7D7AC0012DC9C /* Assets.xcassets */,
+				1CAA2BE11CB7D7AC0012DC9C /* LaunchScreen.storyboard */,
+				1CAA2BE41CB7D7AC0012DC9C /* Info.plist */,
+				1CAA2BD31CB7D7AC0012DC9C /* Supporting Files */,
+			);
+			path = "Animating Circle Pie";
+			sourceTree = "<group>";
+		};
+		1CAA2BD31CB7D7AC0012DC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA2BD41CB7D7AC0012DC9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CAA2BEC1CB7D7AC0012DC9C /* Animating Circle PieTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA2BED1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m */,
+				1CAA2BEF1CB7D7AC0012DC9C /* Info.plist */,
+			);
+			path = "Animating Circle PieTests";
+			sourceTree = "<group>";
+		};
+		1CAA2BF71CB7D7AC0012DC9C /* Animating Circle PieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA2BF81CB7D7AC0012DC9C /* Animating_Circle_PieUITests.m */,
+				1CAA2BFA1CB7D7AC0012DC9C /* Info.plist */,
+			);
+			path = "Animating Circle PieUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAA2BCF1CB7D7AC0012DC9C /* Animating Circle Pie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAA2BFD1CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle Pie" */;
+			buildPhases = (
+				1CAA2BCC1CB7D7AC0012DC9C /* Sources */,
+				1CAA2BCD1CB7D7AC0012DC9C /* Frameworks */,
+				1CAA2BCE1CB7D7AC0012DC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animating Circle Pie";
+			productName = "Animating Circle Pie";
+			productReference = 1CAA2BD01CB7D7AC0012DC9C /* Animating Circle Pie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAA2BE81CB7D7AC0012DC9C /* Animating Circle PieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAA2C001CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle PieTests" */;
+			buildPhases = (
+				1CAA2BE51CB7D7AC0012DC9C /* Sources */,
+				1CAA2BE61CB7D7AC0012DC9C /* Frameworks */,
+				1CAA2BE71CB7D7AC0012DC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAA2BEB1CB7D7AC0012DC9C /* PBXTargetDependency */,
+			);
+			name = "Animating Circle PieTests";
+			productName = "Animating Circle PieTests";
+			productReference = 1CAA2BE91CB7D7AC0012DC9C /* Animating Circle PieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CAA2BF31CB7D7AC0012DC9C /* Animating Circle PieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAA2C031CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle PieUITests" */;
+			buildPhases = (
+				1CAA2BF01CB7D7AC0012DC9C /* Sources */,
+				1CAA2BF11CB7D7AC0012DC9C /* Frameworks */,
+				1CAA2BF21CB7D7AC0012DC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAA2BF61CB7D7AC0012DC9C /* PBXTargetDependency */,
+			);
+			name = "Animating Circle PieUITests";
+			productName = "Animating Circle PieUITests";
+			productReference = 1CAA2BF41CB7D7AC0012DC9C /* Animating Circle PieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAA2BC81CB7D7AC0012DC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Redonkulous Apps";
+				TargetAttributes = {
+					1CAA2BCF1CB7D7AC0012DC9C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1CAA2BE81CB7D7AC0012DC9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1CAA2BCF1CB7D7AC0012DC9C;
+					};
+					1CAA2BF31CB7D7AC0012DC9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1CAA2BCF1CB7D7AC0012DC9C;
+					};
+				};
+			};
+			buildConfigurationList = 1CAA2BCB1CB7D7AC0012DC9C /* Build configuration list for PBXProject "Animating Circle Pie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CAA2BC71CB7D7AC0012DC9C;
+			productRefGroup = 1CAA2BD11CB7D7AC0012DC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAA2BCF1CB7D7AC0012DC9C /* Animating Circle Pie */,
+				1CAA2BE81CB7D7AC0012DC9C /* Animating Circle PieTests */,
+				1CAA2BF31CB7D7AC0012DC9C /* Animating Circle PieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAA2BCE1CB7D7AC0012DC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAA2BE31CB7D7AC0012DC9C /* LaunchScreen.storyboard in Resources */,
+				1CAA2BE01CB7D7AC0012DC9C /* Assets.xcassets in Resources */,
+				1CAA2BDE1CB7D7AC0012DC9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAA2BE71CB7D7AC0012DC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAA2BF21CB7D7AC0012DC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAA2BCC1CB7D7AC0012DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAA2BDB1CB7D7AC0012DC9C /* ViewController.m in Sources */,
+				1CAA2BD81CB7D7AC0012DC9C /* AppDelegate.m in Sources */,
+				1CAA2BD51CB7D7AC0012DC9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAA2BE51CB7D7AC0012DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAA2BEE1CB7D7AC0012DC9C /* Animating_Circle_PieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAA2BF01CB7D7AC0012DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAA2BF91CB7D7AC0012DC9C /* Animating_Circle_PieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAA2BEB1CB7D7AC0012DC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAA2BCF1CB7D7AC0012DC9C /* Animating Circle Pie */;
+			targetProxy = 1CAA2BEA1CB7D7AC0012DC9C /* PBXContainerItemProxy */;
+		};
+		1CAA2BF61CB7D7AC0012DC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAA2BCF1CB7D7AC0012DC9C /* Animating Circle Pie */;
+			targetProxy = 1CAA2BF51CB7D7AC0012DC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CAA2BDC1CB7D7AC0012DC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAA2BDD1CB7D7AC0012DC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CAA2BE11CB7D7AC0012DC9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAA2BE21CB7D7AC0012DC9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAA2BFB1CB7D7AC0012DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CAA2BFC1CB7D7AC0012DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAA2BFE1CB7D7AC0012DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animating Circle Pie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Animating-Circle-Pie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CAA2BFF1CB7D7AC0012DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animating Circle Pie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Animating-Circle-Pie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CAA2C011CB7D7AC0012DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animating Circle PieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Animating-Circle-PieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animating Circle Pie.app/Animating Circle Pie";
+			};
+			name = Debug;
+		};
+		1CAA2C021CB7D7AC0012DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animating Circle PieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Animating-Circle-PieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animating Circle Pie.app/Animating Circle Pie";
+			};
+			name = Release;
+		};
+		1CAA2C041CB7D7AC0012DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animating Circle PieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Animating-Circle-PieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animating Circle Pie";
+			};
+			name = Debug;
+		};
+		1CAA2C051CB7D7AC0012DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animating Circle PieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Animating-Circle-PieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animating Circle Pie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAA2BCB1CB7D7AC0012DC9C /* Build configuration list for PBXProject "Animating Circle Pie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAA2BFB1CB7D7AC0012DC9C /* Debug */,
+				1CAA2BFC1CB7D7AC0012DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAA2BFD1CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle Pie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAA2BFE1CB7D7AC0012DC9C /* Debug */,
+				1CAA2BFF1CB7D7AC0012DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CAA2C001CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle PieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAA2C011CB7D7AC0012DC9C /* Debug */,
+				1CAA2C021CB7D7AC0012DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CAA2C031CB7D7AC0012DC9C /* Build configuration list for PBXNativeTarget "Animating Circle PieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAA2C041CB7D7AC0012DC9C /* Debug */,
+				1CAA2C051CB7D7AC0012DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CAA2BC81CB7D7AC0012DC9C /* Project object */;
+}
